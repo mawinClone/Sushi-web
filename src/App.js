@@ -5,8 +5,8 @@ import SushiItem from './components/SushiItem';
 
 
 function App() {
-  const sushiElements = sushiData.map((sushi, index) =>{
-    return <SushiItem key = {index} sushi={sushi}/>
+  const sushiElements = sushiData.map((element, index) =>{
+    return <SushiItem sushi={element} key = {index} />
   });
 
   return (
