@@ -1,7 +1,9 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import sushiData from './data/sushiData.js'
 import SushiItem from './components/SushiItem';
+import Navbar from './components/Navbar'
+
 
 
 function App() {
@@ -12,7 +14,7 @@ function App() {
   return (
     <div className="App">
 
-      {/* header */}
+      <Navbar/>
 
       <div className="main-content">
         {/* main content */}
