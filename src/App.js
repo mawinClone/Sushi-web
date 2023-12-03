@@ -3,6 +3,7 @@ import './App.css';
 import sushiData from './data/sushiData.js'
 import SushiItem from './components/SushiItem';
 import Navbar from './components/Navbar'
+import MainContent from './components/MainContent.js';
 
 
 
@@ -17,7 +18,7 @@ function App() {
       <Navbar/>
 
       <div className="main-content">
-        {/* main content */}
+        <MainContent/>
       </div>
 
       <div className="app-grid">

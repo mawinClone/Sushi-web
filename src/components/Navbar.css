@@ -26,22 +26,15 @@ nav{
 
 .menu{
     display: flex;
-    /* justify-content: space-between; */
     list-style: none;
     align-items: center;
 }
 .menu li{
     margin: 0 1rem;
-    /* list-style-type: none; */
-    
 }
-
-.menu li a:link {
+.menu li a{
     color: black;
     text-decoration: none;
-  }
-
-
-a{
-    text-decoration: none;
+    /* list-style-type: none; */
+    
 }

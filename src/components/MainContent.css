@@ -1,0 +1,26 @@
+
+.maincontent{
+    display: flex;
+    background-color: skyblue;
+    justify-content: center;
+    width:70%;
+    vertical-align: middle;
+}
+.maincontent-info{
+    margin: 2rem;
+    width: 30%;
+    padding: 2rem;
+    background-color: blue;
+}
+.maincontent-image {
+
+    width: 30%;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: brown;
+    
+}
+
+.maincontent-image img{
+    width: 100%;
+}
