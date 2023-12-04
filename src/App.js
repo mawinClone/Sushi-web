@@ -1,35 +1,34 @@
 // import logo from './logo.svg';
-import './App.css';
-import sushiData from './data/sushiData.js'
-import SushiItem from './components/SushiItem';
-import Navbar from './components/Navbar'
-import MainContent from './components/MainContent.js';
-
-
+import "./App.css";
+import sushiData from "./data/sushiData.js";
+import SushiItem from "./components/SushiItem";
+import Navbar from "./components/Navbar";
+import MainContent from "./components/MainContent.js";
+import Footer from "./components/Footer.js";
 
 function App() {
-  const sushiElements = sushiData.map((element, index) =>{
-    return <SushiItem sushi={element} key = {index} />
+  const sushiElements = sushiData.map((element, index) => {
+    return <SushiItem sushi={element} key={index} />;
   });
 
   return (
-    <div className="App">
+    <html>
+      <body>
+        <div className="App">
+          <Navbar />
 
-      <Navbar/>
+          <div className="main-content">
+            <MainContent />
+          </div>
 
-      <div className="main-content">
-        <MainContent/>
-      </div>
+          <div className="app-grid">{sushiElements}</div>
 
-      <div className="app-grid">
-        {sushiElements}
-      </div>
-
-      <div className="Footer">
-        {/* footer */}
-      </div>
-      
-    </div>
+          <div className="Footer">
+            <Footer />
+          </div>
+        </div>
+      </body>
+    </html>
   );
 }
 

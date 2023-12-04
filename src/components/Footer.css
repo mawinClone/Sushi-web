@@ -1,0 +1,14 @@
+
+/*.top{
+    display: flex;
+    background-color: red;
+    margin-top: 25px;
+}*/
+
+.footer-top-item{
+    display: flex;
+    background-color: pink;
+    justify-content: center;
+    width: 100%;
+    vertical-align: middle;
+}

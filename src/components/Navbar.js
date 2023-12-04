@@ -16,8 +16,8 @@ const Navbar = () => {
             
           <ul className="menu">
             <li><a href="#">Home</a></li>
-            <li><a href="#">categories</a></li>
-            <li><a href="#">about</a></li>
+            <li><a href="#">Categories</a></li>
+            <li><a href="#">About</a></li>
           </ul>
         </div>
       </nav>
