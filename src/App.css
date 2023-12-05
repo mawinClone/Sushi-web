@@ -1,5 +1,12 @@
 *{
-    margin: 0;
+    /* margin: 0 auto; */
     padding: 0;
     box-sizing: border-box;
+}
+.App{
+    
+    /* max-width: 1140px; */
+}
+body{
+    /* max-width: 1140px; */
 }

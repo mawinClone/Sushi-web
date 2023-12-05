@@ -12,23 +12,19 @@ function App() {
   });
 
   return (
-    <html>
-      <body>
-        <div className="App">
-          <Navbar />
+    <div className="App">
+      <Navbar />
 
-          <div className="main-content">
-            <MainContent />
-          </div>
+      <div className="main-content">
+        <MainContent />
+      </div>
 
-          <div className="app-grid">{sushiElements}</div>
+      <div className="app-grid">{sushiElements}</div>
 
-          <div className="Footer">
-            <Footer />
-          </div>
-        </div>
-      </body>
-    </html>
+      <div className="Footer">
+        <Footer />
+      </div>
+    </div>
   );
 }
 
