@@ -1,9 +1,11 @@
 .card 
 {
     max-width: 17vw;
-    border: 2px solid seagreen;
+    border: 2px solid gray;
     border-radius: 4px;
-    padding: .5rem;
+    padding: 1rem;
+    /* background-color: blue; */
+    margin: 1em  ;
 
 }
   
@@ -11,10 +13,9 @@
 {
     width: 15vw;
     height: 15vw;
-    padding: 10px;
-    background-color: aqua;
+    padding: 5px;
+    background-color: gray;
 }
-
 .card img
 {
     height: 100%;
