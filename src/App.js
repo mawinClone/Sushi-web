@@ -19,7 +19,11 @@ function App() {
         <MainContent />
       </div>
 
-      <div className="app-grid">{sushiElements}</div>
+      <div className="app-grid">
+        <div className="grid-content">
+        {sushiElements}
+        </div>
+      </div>
 
       <div className="Footer">
         <Footer />
