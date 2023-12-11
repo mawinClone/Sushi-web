@@ -13,7 +13,6 @@ const SushiItem = (props) => {
           <p>{title}</p>
           <b>John Doe</b>
         </h4>
-        <p>Architect & Engineer</p>
       </div>
     </div>
   );

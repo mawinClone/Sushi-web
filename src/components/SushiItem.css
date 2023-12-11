@@ -1,11 +1,12 @@
 .card 
 {
-    max-width: 17vw;
+    
+    max-width: 330px;
     border: 2px solid gray;
     border-radius: 4px;
     padding: 1rem;
     /* background-color: blue; */
-    margin: 1em  ;
+    /* margin: 1em  ; */
 
 }
   
