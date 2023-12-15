@@ -9,10 +9,10 @@ const SushiItem = (props) => {
       </div>
 
       <div className="card-container">
-        <h4>
+        
           <p>{title}</p>
-          <b>John Doe</b>
-        </h4>
+          {/* <b>John Doe</b> */}
+        
       </div>
     </div>
   );

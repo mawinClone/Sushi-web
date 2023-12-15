@@ -1,39 +1,49 @@
-.card 
-{
-    height: 18vw;
-    width: 15vw;
+.card {
+    
+    width: 15em;
+    height: 15em;
+    margin: 10px 10px;
     border: 2px solid gray;
     /* transition: 0.3s; */
     background-color: rgb(240, 240, 240);
-    
+
+    /* flex-basis: 33.33333% */
+
 
 }
 
 /* On mouse-over, add a deeper shadow */
 .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  /* Add some padding inside the card container */
-  .container {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
     padding: 2px 16px;
-  }
-  
-.cardImage
-{
+}
+
+.cardImage {
     width: 100%;
-    height: 15em;
+    height: 70%;
     padding: 5px;
     /* background-color: gray; */
 }
-.card img
-{
+
+.card img {
     height: 100%;
     width: 100%;
-    
+
     object-fit: cover;
 }
-.card-container{
-    padding: 0 10px;
-}
 
+.card-container {
+    width: 100%;
+    height: 30%;
+    /* padding: 15px 10px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aqua; */
+
+
+}

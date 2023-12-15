@@ -21,7 +21,7 @@ function App() {
 
       <div className="app-grid">
         <div className="grid-content">
-        {sushiElements}
+          {sushiElements}
         </div>
       </div>
 
