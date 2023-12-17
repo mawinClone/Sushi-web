@@ -79,6 +79,22 @@ const sushiData = [
         title: "sushi 20",
         thumbnailURL:"/images/sushi-5902131_640.jpg"
     },
+    {
+        title: "sushi 21",
+        thumbnailURL:"/images/ai-generated-7955585_640.jpg"
+    },
+    {
+        title: "sushi 22",
+        thumbnailURL:"/images/restaurant-5319631_640.jpg"
+    },
+    {
+        title: "sushi 23",
+        thumbnailURL:"/images/japanese-food-4984954_640.jpg"
+    },
+    {
+        title: "sushi 24",
+        thumbnailURL:"/images/restaurant-4165435_640.jpg"
+    },
 ];
 
 // var fs = require('fs');
